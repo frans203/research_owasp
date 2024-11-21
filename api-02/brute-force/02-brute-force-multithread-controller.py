@@ -2,9 +2,8 @@ import subprocess
 from concurrent.futures import ThreadPoolExecutor
 
 #configuration
-script_to_run = "02-brute-force-multithread.py"
-execution_count = 5
-num_threads = 5
+script_to_run = "brute-force/02-brute-force-multithread.py"
+num_threads = 100
 
 #script execution function
 def run_script(instance_id):
@@ -21,7 +20,7 @@ def run_script(instance_id):
 
 def main():
     with ThreadPoolExecutor(max_workers=num_threads) as executor:
-        executor.map(run_script, range(1, execution_count + 1))
+        executor.map(run_script, range(1, num_threads + 1))
 
 if __name__ == '__main__':
     main()

