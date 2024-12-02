@@ -2,7 +2,7 @@ import subprocess
 from concurrent.futures import ThreadPoolExecutor
 
 #configuration
-script_to_run = "brute-force/02-brute-force-multithread.py"
+script_to_run = "02-brute-force-multithread.py"
 num_threads = 100
 
 #script execution function

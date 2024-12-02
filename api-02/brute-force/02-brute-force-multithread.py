@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 url = "http://34.139.11.27:8181/onos/v1/docs/index.html"
 username = "onos"
-wordlist_path = 'brute-force/wordlists/rockyou.txt'
+wordlist_path = 'wordlists/rockyou.txt'
 num_threads = 100
 
 def encode_credentials(username:str, password:str):
